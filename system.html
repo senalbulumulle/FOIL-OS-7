@@ -1,0 +1,160 @@
+<link rel="stylesheet" type="text/css" href="main.css">
+<html>
+<title> System</title> 
+<OS>
+    
+    
+<!--
+  ______  ____  _____  _         ____    _____
+ |  ____|/ __ \|_   _|| |       / __ \  / ____|
+ | |__  | |  | | | |  | |      | |  | || (___
+ |  __| | |  | | | |  | |      | |  | | \___ \
+ | |    | |__| |_| |_ | |____  | |__| | ____) |
+ |_|     \____/|_____||______|  \____/ |_____/
+                                                -->
+    <!-- This Version of this package is marked "beta".
+the interface may change anytime. --> 
+    
+    <!--  --> 
+<!-- Anybody can use this repository for any purpose. -->
+<!-- 100% Free, No License -->
+<!-- FOIL OS is still being developed since 2012 -->
+<!-- Current  Version 7.0 Stabled -->
+<!-- Instructions -->
+
+
+    <!-- Status Bar Configuration --> 
+    
+    <ul><li><a class="active"</head>
+        <body><div class="clock"></div><script src=''></script><script>function clock(){var time=new Date(),hours=time.getHours(),minutes=time.getMinutes(),seconds=time.getSeconds();document.querySelectorAll('.clock')[0].innerHTML=harold(hours)+":"+harold(minutes);function harold(standIn){if(standIn<10){standIn='0'+standIn}
+return standIn}}
+setInterval(clock,1000);</script></body></html><li></li></ul>
+    
+<head>
+
+    </head> 
+
+  <script src=""></script>
+<!-- When you add a command called  <a href ="" class="">  </a>, as a class, you must put the class called button. the <a href=""  < put the url here. -->
+    
+   
+    
+    
+
+    <!--
+-                         ]
+-
+-
+-
+-
+-
+-
+-
+-->
+    
+    
+  
+    <header class="layout1">
+
+         <h1> About System</h1>
+    <p> OS: FOIL OS Version 7.0 Stabled Version </p>
+        <p> First Version of FOIL OS (Formally "FO") on December 31 of 2012 </p>
+        <p> FOIL OS is an operating system for unique wonderful user interfaces from Scratch css, and other creative ideas based HTML, CSS, and Javascript. </p>
+            <!-- Setting, if <p id="demo" is deleted, the script will not run -->
+    </header>
+    
+
+
+  </div>
+  <!-- Details Section --> 
+  
+  <header class="layout2">
+    
+    <h1> Details </h1>
+ <p> User Agent Details </p>
+    <p id="demo"></p>
+
+    <script>
+ var txt = /*Leave this one blank */ "";
+    // window.js
+txt += "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
+txt += "<p>Browser Name or based on : " + navigator.appName + "</p>";
+txt += "<p>Browser Version: " + navigator.appVersion + "</p>";
+txt += "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>"; 
+txt += "<p>Browser Language: " + navigator.language + "</p>";
+txt += "<p>Browser Online: " + navigator.onLine + "</p>";
+txt += "<p>Platform: " + navigator.platform + "</p>";
+txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
+txt += "<p>Vendor:" + navigator.vendor +"</p>";
+txt += "<p>Java :" + navigator.javaEnabled +"</p>";
+txt += document.write("Manufactored in Alpha Land ")
+
+document.getElementById("demo").innerHTML = txt;
+        </script>
+
+
+        <!-- Battery Information --> 
+
+
+        <h1> Battery Information 🔋 </h1>
+
+  <!-- Adam Eldredge --> 
+  
+  <script>
+    window.onload = function () {
+      function FOIL_AI_Battery(battery) {
+        /* Allows FOIL AI to detect battery percentage */ 
+        document.querySelector('#charging').textContent = battery.charging ? 'charging' : 'not charging';
+        document.querySelector('#level').textContent = battery.level;
+        document.querySelector('#dischargingTime').textContent = battery.dischargingTime / 60;
+      }
+
+      navigator.getBattery().then(function(battery) {
+        // Update the battery status initially when the promise resolves ...
+        FOIL_AI_Battery(battery);
+
+        // .. and for any subsequent updates.
+        battery.onchargingchange = function () {
+          FOIL_AI_Battery(battery);
+        };
+
+        battery.onlevelchange = function () {
+          FOIL_AI_Battery(battery);
+        };
+
+        battery.ondischargingtimechange = function () {
+          updateBatteryStatus(battery);
+        };
+      });
+    };
+  </script>
+
+<body>
+  <div id="charging">( ⚠︎charging state malfunction)</div>
+  <div id="level">( ⚠︎battery level malfunction)</div>
+  <div id="dischargingTime">( discharging time not calculated)</div>
+</body>
+</html>
+
+
+
+</header>
+    <header class="small_layout1">
+    <a href="home.html" class="red_button">Back </a>
+    <a href="home.html" class="red_button">Home</a>
+</header>
+    
+    </head>
+</OS>
+</html>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+

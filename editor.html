@@ -1,0 +1,133 @@
+<!--
+  ______  ____  _____  _         ____    _____
+ |  ____|/ __ \|_   _|| |       / __ \  / ____|
+ | |__  | |  | | | |  | |      | |  | || (___
+ |  __| | |  | | | |  | |      | |  | | \___ \
+ | |    | |__| |_| |_ | |____  | |__| | ____) |
+ |_|     \____/|_____||______|  \____/ |_____/
+                                                -->
+<!-- Anybody can use this repository for any purpose. -->
+<!-- 100% Free, No License -->
+<!-- FOIL OS is still being developed since 2012 -->
+<!-- Current  Version 7.0 -Stabled -->
+
+
+
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+
+
+ <ul><li><a class="active"</head>
+        <body><div class="clock"></div><script src=''></script><script>function clock(){var time=new Date(),hours=time.getHours(),minutes=time.getMinutes(),seconds=time.getSeconds();document.querySelectorAll('.clock')[0].innerHTML=harold(hours)+":"+harold(minutes);function harold(standIn){if(standIn<10){standIn='0'+standIn}
+return standIn}}
+setInterval(clock,1000);</script></body></html><li></li></ul>
+
+
+
+    
+    <body onload="myFunction()" style="margin:0;">
+                              
+        <div id="loader"> <center><h1>⌨</h1></center></div>
+    </body> 
+<div style="display:none;" id="myDiv" class="animate-bottom">
+ 
+
+
+
+<head>
+		<title>FOIL Editor</title>
+    <p> Welcome to the editor. Here, you can create your own code and test it with original normal html, css, php, and javascript. </p>
+		<style type="text/css">
+            
+            
+            
+            
+			textarea, iframe {
+    			border: 2px solid #ddd;
+    			height: 500px;
+    			width: 100%;
+         
+			}
+      body {
+        background-image: url("");  
+      }
+      #paste {
+        text-decoration-color: white;
+      }
+
+
+ 	</style>
+
+
+	</head>
+    <body>
+        <table width="100%" border="0" cellspacing="5" cellpadding="5">
+            <tr>
+                <td width="50%" scope="col">&nbsp;</td>
+                <td width="50%" align="left" scope="col">
+                    <input onclick="runCode();" type="button" class="button" value="Run Code">
+                    <input onclick="reload();"  type="button" value="Reload"
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <form>
+                        <strong style="color:white;">Paste Your Code</strong>
+                        <!-- NATURALLY GENERATED COMMENT --> 
+                        <textarea name="sourceCode" id="sourceCode">
+                       <!-- FOIL App Environment Version 7.0 --> 
+                       <!-- FOIL Kernel Args Version 1.0 (constant )--> 
+                    
+
+
+
+
+
+
+                        
+
+
+
+                       </textarea>
+                    </form>
+                </td>
+                <td><strong style="color:white;">Output</strong><iframe name="targetCode" id="targetCode"></iframe></td>
+            </tr>
+        </table>  
+        <script type="text/javascript">
+            function runCode()
+            {
+                var content = document.getElementById('sourceCode').value;
+                var iframe = document.getElementById('targetCode');
+                iframe = (iframe.contentWindow) ? iframe.contentWindow : (iframe.contentDocument.document) ? iframe.contentDocument.document : iframe.contentDocument;
+                iframe.document.open();
+                iframe.document.write(content);
+                iframe.document.close();
+                return false;
+            }
+            runCode();
+        </script>
+    </body>
+    
+    
+    <ul></ul>
+<header class="small_layout0">
+<a href="home.html" class="orange_button"> ◃</a>
+<a href="home.html" class="yellow_button"> ▵</a>
+</header>
+
+     
+    
+</div>
+
+<script>
+var myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
