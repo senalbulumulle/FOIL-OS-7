@@ -17,7 +17,7 @@
   / /  / /  / /  / /  / /  / /                                
  /_/  /_/  /_/  /_/  /_/  /_/  
 
- Adam Eldredge.  
+
 
  Senal Bulumulle 
 
@@ -41,7 +41,7 @@ Standard: 27 December 2018 12:06 pm
 
     function myFunction() {
       /* Change the ShowPage */ 
-      
+     
         myVar = setTimeout(showPage, 1000);
     }
 
