@@ -1,5 +1,5 @@
 # FOIL-OS-Universal-Compatible
-This Particular Version of FOIL OS 7.0 is designed to run on many web browsers and many web applications universally 
+This Particular Version of FOIL OS 7.0 or later is designed to run on many web browsers and many web applications universally 
 Improvements 
 
 
