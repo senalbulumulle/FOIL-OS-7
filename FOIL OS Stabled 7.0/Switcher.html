@@ -1,0 +1,45 @@
+<!ALPHA html>
+<html>
+<head>
+
+  <h1>AV </h1>
+  <script>
+    window.onload = function () {
+      function Battery_Task1(battery) {
+        document.querySelector('#charging').textContent = battery.charging ? 'charging' : 'not charging';
+        document.querySelector('#level').textContent = battery.level;
+        document.querySelector('#dischargingTime').textContent = battery.dischargingTime / 60;
+      }
+
+      navigator.getBattery().then(function(battery) {
+        // Update the battery status initially when the promise resolves ...
+        Battery_Task1(battery);
+
+        // .. and for any subsequent updates.
+        battery.onchargingchange = function () {
+          Battery_Task1(battery);
+        };
+
+        battery.onlevelchange = function () {
+          Battery_Task1(battery);
+        };
+
+        battery.ondischargingtimechange = function () {
+          Battery_Task1(battery);
+        };
+      });
+    };
+  </script>
+</head>
+<body>
+  <div id="charging">(charging state Malfunction)</div>
+  <div id="level">(battery level Malfunction)</div>
+  <div id="dischargingTime">(discharging time Malfunction)</div>
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+  
+</script>
