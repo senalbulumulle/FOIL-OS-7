@@ -17,10 +17,4 @@ Improvements
   
   
   
-  
-  This Repository contains 2 branches
-  
-  Master = Stabled Versions of FOIL OS Universal Compatible
-  Beta = Beta Versions of FOIL OS Universal Compatible
-  
   __________________________________________________________________________________________________________________________
