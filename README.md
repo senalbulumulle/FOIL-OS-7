@@ -1,5 +1,6 @@
 # FOIL-OS-Universal-Compatible
 <h5> FOIL OS is an Operating System of Things based on HTML, CSS, and JavaScript and other Programming Languages</h5>
+<h4> Note: This Repository is no longer being updated and maintained.  </h4> 
 <p> Main Applications</p>
 <li> system.html =  Displays Information about your computer, the user agent information, and more.   </li>
 <li> editor.html =  Web Based text-editor tool that allows user to develop a web app, or a website  </li>
